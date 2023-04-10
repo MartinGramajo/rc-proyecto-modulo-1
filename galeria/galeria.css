@@ -33,10 +33,10 @@ nav {
 }
 
 .button-s {
-  background-color: #48285c;
+  background-color: #48285c !important;
 }
 .color-6 {
-  background-color: white;
+  background-color: white !important;
 }
 
 #galeria img {
