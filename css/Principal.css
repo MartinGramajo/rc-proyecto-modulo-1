@@ -425,6 +425,18 @@ f .Categorias .btn-Categorias {
     font-size: 3vh;
   }
 
+  @media screen and (min-width: 768px) {
+    .Title-Text {
+      font-size: 2vh !important;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .Title-Text {
+      font-size: 3vh !important;
+    }
+  }
+
   .Content-Text {
     font-size: small;
     font-family: var(--Letra2);

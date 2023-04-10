@@ -69,12 +69,36 @@ input[type="radio"] {
 
 label {
   color: grey;
-  width: 100px;
+  width: 70px;
+}
+
+.linea-estrella {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .clasificacion {
-  direction: rtl;
-  unicode-bidi: bidi-override;
+  direction: initial;
+}
+
+@media screen and (min-width: 768px) {
+  .clasificacion {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+  }
+  .linea-estrella {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
 }
 
 label:hover,
