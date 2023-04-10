@@ -277,12 +277,13 @@ label {
 }
 
 .clasificacion {
-  direction: initial;
+  direction: rtl;
+  unicode-bidi: bidi-override;
 }
 
 @media screen and (min-width: 768px) {
   .clasificacion {
-    direction: ltr;
+    direction: rtl;
     unicode-bidi: bidi-override;
   }
   .linea-estrella {
