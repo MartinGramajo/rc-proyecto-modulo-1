@@ -55,13 +55,15 @@
                 >Acerca de Nosotros</a
               >
             </button>
-            <button class="button-s btn btn-dark" type="button">
-              <a
-                class="text-decoration-none text-white"
-                href="../contacto/contacto.html"
-                >Suscripción</a
-              >
-            </button>
+            <button
+            class="button-s btn btn-dark"
+            type="button"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modalsuscripcion"
+          >
+            Suscripcion
+          </button>
             <button class="button-s btn btn-dark" type="button">
               <a
                 class="text-decoration-none text-white"
@@ -90,6 +92,91 @@
       </div>
     </nav>
     <main>
+      <section>
+        <div
+        class="modal fade"
+        id="modalsuscripcion"
+        tabindex="-1"
+        aria-labelledby="openModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-nav">
+          <div class="modal-content">
+            <div class="modal-header modal-header-nav">
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  class="img-modal"
+                  src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
+                  alt=""
+                  height="60"
+                  width="60"
+                />
+              </a>
+              <h5 class="modal-title modal-title-nav" id="openModalLabel">
+                Hollywow
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-Paquete-Compra modal-body">
+              <div class="Compra-Basico Compra">
+                <div class="Header-Compra Header-Compra-Basico">
+                  <ul class="help-list title-help-list help-list-basico">
+                    <li>Basico</li>
+                    <li>$50</li>
+                  </ul>
+                </div>
+                <div class="Body-Compra Body-Compra-Basico">
+                  <ul class="help-list">
+                    <li>1 Usuario</li>
+                    <li>Reseña 2 Dias Antes del Estreno</li>
+                    <li>Tiempo Ilimitado de uso</li>
+                  </ul>
+                </div>
+                <button
+                  class="Boton-Comprar-Basico Boton-Compra"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                  data-bs-target="#modalsuscripcion2"
+                >
+                  Comprar
+                </button>
+              </div>
+              <div class="Compra-Premium Compra">
+                <div class="Header-Compra Header-Compra-Premium">
+                  <ul class="help-list title-help-list">
+                    <li>Premium</li>
+                    <li>$100</li>
+                  </ul>
+                </div>
+                <div class="Body-Compra Body-Compra-Premium">
+                  <ul class="help-list help-list-premium">
+                    <li>5 Usuario</li>
+                    <li>Reseña 7 Dias Antes del Estreno</li>
+                    <li>Tiempo Ilimitado de uso</li>
+                  </ul>
+                </div>
+                <button
+                  class="Boton-Comprar-Premium Boton-Compra"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                  data-bs-target="#modalsuscripcion2"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div/>
+      </section>
       <section id="galeria" class="color-1 container">
         <h1 class="text-center text-light color-4">Galeria de Imagenes</h1>
         <p class="p-3 text-light text-center">
