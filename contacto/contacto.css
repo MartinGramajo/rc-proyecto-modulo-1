@@ -44,7 +44,6 @@ body {
   background-color: #7c469e;
 }
 
-/* Form */
 .form-width {
   width: 400px;
 }
@@ -89,7 +88,6 @@ body {
   width: 100%;
   margin: auto auto;
   background-color: var(--ColorLetra2);
-  /* justify-content: space-around; */
 }
 
 .Compra {

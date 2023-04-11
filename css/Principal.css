@@ -28,6 +28,20 @@ body {
   margin: 0;
 }
 
+nav {
+  font-family: "Bangers", cursive !important;
+  background-color: #9c0cf5;
+}
+
+.font-s {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button-s {
+  background-color: #48285c;
+}
+
 .Carousel-Principal {
   display: flex;
   width: 100vw;

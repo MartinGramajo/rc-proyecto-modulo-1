@@ -40,20 +40,6 @@ body {
   background-size: cover;
 }
 
-nav {
-  font-family: "Bangers", cursive !important;
-  background-color: #9c0cf5;
-}
-
-.font-s {
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.button-s {
-  background-color: #48285c;
-}
-
 .text {
   font-family: "Bangers", cursive;
   color: rgb(251, 248, 252);
@@ -87,7 +73,6 @@ nav {
   width: 100%;
   margin: auto auto;
   background-color: var(--ColorLetra2);
-  /* justify-content: space-around; */
 }
 
 .Compra {

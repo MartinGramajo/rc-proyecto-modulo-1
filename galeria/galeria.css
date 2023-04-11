@@ -166,7 +166,6 @@ input[type="radio"]:checked ~ label {
   width: 100%;
   margin: auto auto;
   background-color: var(--ColorLetra2);
-  /* justify-content: space-around; */
 }
 
 .Compra {
