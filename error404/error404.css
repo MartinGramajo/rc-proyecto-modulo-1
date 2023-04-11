@@ -24,27 +24,6 @@ body {
   --Letra2: "Playfair Display", serif;
 }
 
-.color-negro-fondo {
-  background-color: black;
-}
-
-.color-1 {
-  background-color: #48285c;
-}
-.color-2 {
-  background-color: #9c0cf5;
-}
-.color-3 {
-  background-color: #ac60db;
-}
-.color-4 {
-  background-color: #481666;
-}
-.color-5 {
-  background-color: #7c469e;
-}
-
-/* 404 */
 .imagen404 {
   width: 300px;
 }
@@ -53,4 +32,12 @@ body {
   .imagen404 {
     width: 600px;
   }
+}
+
+.giro {
+  transition-duration: 0.9s;
+}
+.giro:hover {
+  transform: rotate3d(0.8, 1, 0, 180deg);
+  transition-timing-function: ease-in-out;
 }
